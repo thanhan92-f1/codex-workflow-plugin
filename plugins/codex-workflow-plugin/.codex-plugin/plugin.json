@@ -1,0 +1,32 @@
+{
+  "name": "codex-workflow-plugin",
+  "version": "0.1.0+codex.20260830073252",
+  "description": "Alpha Codex-led workflow with Pi specialists, bounded writes, independent review, gated commits, and continuation prompts.",
+  "author": {
+    "name": "Nguyen Thanh An",
+    "url": "https://github.com/thanhan92-f1"
+  },
+  "homepage": "https://github.com/thanhan92-f1/codex-workflow-plugin",
+  "repository": "https://github.com/thanhan92-f1/codex-workflow-plugin",
+  "keywords": [
+    "codex",
+    "workflow",
+    "claude",
+    "grok",
+    "pi"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Codex Workflow Orchestrator",
+    "shortDescription": "Coordinate Codex, Claude, and Grok without manual prompt shuttling.",
+    "longDescription": "An experimental workflow that keeps Codex as the primary conversation and review agent, consults Claude through Pi, confines Grok implementation to bounded files on macOS, and preserves explicit commit and continuation gates.",
+    "developerName": "Nguyen Thanh An",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Use the workflow orchestrator for this task.",
+      "Plan this feature and consult specialists only where useful.",
+      "Review this implementation and coordinate any repair."
+    ]
+  }
+}
